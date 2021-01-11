@@ -16,7 +16,11 @@ export const retailerList = () => {
     .then(() => {
         retailers = useRetailers();
         distributors = useDistributors();
-        
-        retailerContainer.innerHTML = retailers.map(retailer => retailerHTML(retailer)).join("");
+
+        retailers.map(retailer => 
+            retailer.distributorInfo = distributors.find(distributor => 
+                distributor.id == retailer.distributorId));
+
+        retailerContainer.innerHTML = retailers.map(retailerInfo => retailerHTML(retailerInfo)).join("");
     });
 };
