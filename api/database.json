@@ -25,5 +25,42 @@
             "commonName": "Daisy",
             "color": "white"
         }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Daisy Dukes",
+            "city": "Teaneck",
+            "state": "New Jersey",
+            "address": "477 Terhune St"
+        },
+        {
+            "id": 2,
+            "name": "Sunny Fields",
+            "city": "Elizabethtown",
+            "state": "Kentucky",
+            "address": "82 Fern Valley Ct"
+        },
+        {
+            "id": 3,
+            "name": "Doorknob Flowers",
+            "city": "Bloxom",
+            "state": "Virginia",
+            "address": "25342 Guilford Rd"
+        },
+        {
+            "id": 4,
+            "name": "Racing Roses",
+            "city": "Madisonville",
+            "state": "Tennessee",
+            "address": "482 Ridge Rd"
+        },
+        {
+            "id": 5,
+            "name": "Pretty Palace",
+            "city": "Belleville",
+            "state": "New Jersey",
+            "address": "52 Branch Brook Dr"
+        }
     ]
 }
