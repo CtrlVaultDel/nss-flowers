@@ -32,35 +32,63 @@
             "name": "Daisy Dukes",
             "city": "Teaneck",
             "state": "New Jersey",
-            "address": "477 Terhune St"
+            "address": "477 Terhune St",
+            "distributorId": 1
         },
         {
             "id": 2,
             "name": "Sunny Fields",
             "city": "Elizabethtown",
             "state": "Kentucky",
-            "address": "82 Fern Valley Ct"
+            "address": "82 Fern Valley Ct",
+            "distributorId": 1
         },
         {
             "id": 3,
             "name": "Doorknob Flowers",
             "city": "Bloxom",
             "state": "Virginia",
-            "address": "25342 Guilford Rd"
+            "address": "25342 Guilford Rd",
+            "distributorId": 2
         },
         {
             "id": 4,
             "name": "Racing Roses",
             "city": "Madisonville",
             "state": "Tennessee",
-            "address": "482 Ridge Rd"
+            "address": "482 Ridge Rd",
+            "distributorId": 2
         },
         {
             "id": 5,
             "name": "Pretty Palace",
             "city": "Belleville",
             "state": "New Jersey",
-            "address": "52 Branch Brook Dr"
+            "address": "52 Branch Brook Dr",
+            "distributorId": 3
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Flowers & Stuff",
+            "city": "Elizabeth",
+            "state": "New Jersey",
+            "address": "4919 Stonepot Rd"
+        },
+        {
+            "id": 2,
+            "name": "Stem Package",
+            "city": "Bradley",
+            "state": "Illinois",
+            "address": "2407 Emeral Dreams Dr"
+        },
+        {
+            "id": 3,
+            "name": "Absolute Flowers",
+            "city": "Albion",
+            "state": "New York",
+            "address": "3692 James Street"
         }
     ]
 }
